@@ -58,7 +58,7 @@ other files.
    used by screen-readers to announce other elements. Here, we hide these
    <spans>, in fact. */
 .cke_voice_label {
-    display: none;
+    display: none!important;
 }
 
 legend.cke_voice_label {

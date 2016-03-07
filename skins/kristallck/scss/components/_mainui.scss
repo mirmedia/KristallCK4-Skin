@@ -86,7 +86,7 @@ Special outer level classes used in this file:
 /* Make the main spaces enlarge to hold potentially floated content. */
 .cke_top, .cke_contents, .cke_bottom {
     /* These are <span>s, so transform them into blocks.*/
-    display: block;
+    display: block !important;
 
     /* Ideally this should be "auto", but it shows scrollbars in IE7. */
     overflow: hidden;
